@@ -18,7 +18,7 @@ public class Q1AreaCalculator
 	{
 		AreaCalculator ac = new AreaCalculator();
 		double result = ac.calculateArea(4.0);
-		System.out.println("Area of Sqaure is : "+result);
+		System.out.println("Area of Square is : "+result);
 		result = ac.calculateArea(4.0,3.0);
 		System.out.println("Area of rectangle is : "+result);
 		result = ac.calculateArea(2.5f);
@@ -37,6 +37,6 @@ class AreaCalculator
 	}
 	double calculateArea(float radius)
 	{
-		return 3.14 * radius * radius;
+		return Math.PI * radius * radius;
 	}
 }
